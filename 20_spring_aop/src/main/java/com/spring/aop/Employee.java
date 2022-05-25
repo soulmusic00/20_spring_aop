@@ -17,6 +17,19 @@ public class Employee {
 			e.printStackTrace();
 		}
 	}
+
+	public void getInfo(String title, int salary) {
+		try {
+			Thread.sleep(1200);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+//	public void getError() {
+//		System.out.println(3/0);
+//	}
 	
 	
 }

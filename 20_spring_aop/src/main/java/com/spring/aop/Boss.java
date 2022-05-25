@@ -19,5 +19,15 @@ public class Boss {
 			e.printStackTrace();
 		}
 	}
+	
+	public void getInfo(String title, int salary) {
+		try {
+			Thread.sleep(300);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
 
 }

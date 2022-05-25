@@ -33,6 +33,19 @@ public class HomeController {
 		manager.getWorkingTime();
 		employee.getWorkingTime();
 		
+		System.out.println("\n\n");
+		
+		
+		boss.getInfo("사장", 1200);
+		manager.getInfo("매니저", 700);
+		employee.getInfo("직원", 300);
+		
+		
+		//employee.getError();
+		
+		
+		
+		
 		return "home";
 	
 	}
